@@ -19,7 +19,7 @@ O dashboard foi construído para facilitar a tomada de decisão gerencial, focad
 
 ### 1. Tendência de Demanda: Real vs. Previsão
 Gráfico de linhas que compara as vendas históricas com as predições da IA. Permite validar visualmente a assertividade do modelo XGBoost.
-*(Adicione aqui o print do seu gráfico de linhas)*
+(./img/linhas.png)
 
 ### 2. Análise de Impacto (SHAP Values)
 Visualização dos fatores que mais influenciaram as previsões. Utiliza os valores SHAP para mostrar se variáveis como "Fim de Semana" ou "Média Móvel" puxaram a previsão para cima ou para baixo.
