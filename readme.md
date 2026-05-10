@@ -19,14 +19,15 @@ O dashboard foi construído para facilitar a tomada de decisão gerencial, focad
 
 ### 1. Tendência de Demanda: Real vs. Previsão
 Gráfico de linhas que compara as vendas históricas com as predições da IA. Permite validar visualmente a assertividade do modelo XGBoost.
-(./img/linhas.png)
+<img width="673" height="441" alt="Captura de tela 2026-05-10 182302" src="https://github.com/user-attachments/assets/7cbd45af-871b-4630-9286-222005edbecd" />
 
 ### 2. Análise de Impacto (SHAP Values)
 Visualização dos fatores que mais influenciaram as previsões. Utiliza os valores SHAP para mostrar se variáveis como "Fim de Semana" ou "Média Móvel" puxaram a previsão para cima ou para baixo.
-*(Adicione aqui o print do seu gráfico de barras do SHAP)*
+<img width="661" height="431" alt="Captura de tela 2026-05-10 182612" src="https://github.com/user-attachments/assets/72c007cb-d962-486b-883d-1e982d52b24e" />
 
 ### 3. Alerta de Reposição (Status de Estoque)
 Tabela dinâmica que cruza a previsão de demanda com o saldo em estoque. Exibe alertas de **"Comprar Agora"** caso a demanda prevista supere o estoque disponível.
+<img width="668" height="298" alt="Captura de tela 2026-05-10 182551" src="https://github.com/user-attachments/assets/cdc0003b-2f89-4230-bf4a-4486d06a883f" />
 
 ## ⚙️ Como Executar
 1. **Banco de Dados:** Execute o script SQL contido na pasta `/sql` para criar e popular as tabelas.
