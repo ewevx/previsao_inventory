@@ -36,4 +36,4 @@ Tabela dinâmica que cruza a previsão de demanda com o saldo em estoque. Exibe 
 ## ⚙️ Como Executar
 1. **Ambiente Python:** Instale as dependências usando `pip install -r requirements.txt`.
 2. **Pipeline de IA:** Execute o notebook `projeto.ipynb` para gerar o arquivo `predicoes_inventory.csv`.
-3. **Power BI:** Abra o arquivo `.pbix` ou importe o CSV gerado seguindo as configurações regionais de "Inglês (Estados Unidos)".
+3. **Power BI:** "importe o CSV gerado no Power BI, com as configurações regionais em Inglês (Estados Unidos)".
