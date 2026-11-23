@@ -1,3 +1,5 @@
+#### **"Dados sintéticos, gerados para simular uma rede varejista. Validação temporal: MAE 3,68 e RMSE 5,22, sem comparação com baseline."**
+
 # Inventory Intelligence - Previsão de Demanda e Gestão de Estoque
 
 Este projeto integra Banco de Dados (PostgreSQL), Machine Learning (XGBoost + SHAP) e Business Intelligence (Power BI) para otimizar a gestão de inventário de uma rede varejista.
