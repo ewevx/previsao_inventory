@@ -31,6 +31,8 @@ Visualização dos fatores que mais influenciaram as previsões. Utiliza os valo
 Tabela dinâmica que cruza a previsão de demanda com o saldo em estoque. Exibe alertas de **"Comprar Agora"** caso a demanda prevista supere o estoque disponível.
 <img width="668" height="298" alt="Captura de tela 2026-05-10 182551" src="https://github.com/user-attachments/assets/cdc0003b-2f89-4230-bf4a-4486d06a883f" />
 
+**"O arquivo do Power BI e a base de dados não estão incluídos neste repositório; o notebook mostra o pipeline, mas não roda sem eles."**
+
 ## ⚙️ Como Executar
 1. **Ambiente Python:** Instale as dependências usando `pip install -r requirements.txt`.
 2. **Pipeline de IA:** Execute o notebook `projeto.ipynb` para gerar o arquivo `predicoes_inventory.csv`.
